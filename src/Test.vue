@@ -1,13 +1,16 @@
 <template>
-  <div>
-    {{ fo }}
-  </div>
+  <div></div>
 </template>
 
 <script>
-import * as _ from 'lodash'
+import * as _ from "lodash";
 
 export default {
-  props: ['foo', 'bar']
-}
+   props: ["foo", "bar"],
+   data() {
+      return {
+         test: 'test',
+      };
+   },
+};
 </script>
